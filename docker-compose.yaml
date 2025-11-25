@@ -6,7 +6,7 @@ services:
     build:
       context: .
     ports: 
-      - 7000:7000
+      - 7007:7000
     command: serve -l
     #volumes:
     #  - ./config.yaml:/usr/src/app/config.yaml
